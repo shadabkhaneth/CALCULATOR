@@ -1,0 +1,73 @@
+/* Overall Body Styling */
+body {
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Container */
+.container {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+/* Calculator Title */
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-decoration: dotted;
+}
+
+/* Calculator Container */
+.calculator {
+    background-color: #ffffff;
+    border: 5px solid #2c3e50;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Input Screen */
+input {
+    width: 100%;
+    height: 60px;
+    font-size: 28px;
+    border-radius: 12px;
+    border: 2px solid #2c3e50;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: right;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Table Layout */
+table {
+    margin: auto;
+}
+
+/* Calculator Buttons */
+button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #3498db;
+    color: white;
+    transform: scale(1.05);
+}
